@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white-bg: hsl(0, 0%, 100%);
+  --bckground: hsl(212, 45%, 89%);
+  --card-background: hsl(0, 0%, 100%);
+  --heading-color: hsl(218, 44%, 22%);
+  --f-family: "Outfit", sans-serif;
+  --p-color: hsl(220, 15%, 55%);
+}
+
+body {
+  font-family: var(--f-family);
+}
+
+.container {
+  background-color: var(--bckground);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.card {
+  background-color: var(--white-bg);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.card .imagem {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+}
+
+.card .textos {
+  display: grid;
+  text-align: center;
+}
+
+.card .textos h1 {
+  font-size: 1.345rem;
+  line-height: 1.8rem;
+  color: var(--heading-color);
+  font-weight: 700;
+}
+
+.card .textos p {
+  color: var(--p-color);
+  font-size: 0.95rem;
+  line-height: 1.37rem;
+  margin-bottom: 1.2rem;
+}
+
+
+@media (min-width: 1001px) {
+  .card {
+    width: 25%;
+  }
+}
+
+@media (min-width: 951px) and (max-width: 1000px) {
+  .card {
+    width: 30%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 950px) {
+  .card {
+    width: 40%
+  }
+}
+
+@media (min-width: 551px) and (max-width: 768px) {
+  .card {
+    width: 55%;
+  }
+}
+
+
+@media (min-width: 300px) and (max-width: 550px) {
+  .card {
+    width: 75%;
+  }
+}
