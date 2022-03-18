@@ -1,6 +1,6 @@
-# Frontend Mentor - QR code component
+# Welcome! <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" width="30px">
 
-## Welcome! <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" width="30px">
+<img src="./design/desktop-preview.jpg" alt="desktop preview">
 
 ## 📋 O Desafio
 
@@ -15,7 +15,9 @@ Você pode usar qualquer ferramenta que desejar para ajudá-lo a completar o des
 
 ## 🎨 Layout
 
-Você pode visualizar o layout do projeto através [deste link](./design/desktop-preview.jpg)
+Layout Desktop: [clique aqui](./design/desktop-preview.jpg)
+<br>
+Layout Mobile: [clique aqui](./design/mobile-design.jpg)
 
 <div align="center">
   <small>Desenvolvido com 💜 por Luan Henrique</small>
